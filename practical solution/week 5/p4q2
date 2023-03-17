@@ -1,0 +1,39 @@
+
+ADT Set
+A Set is a collection of distinct objects.
+
+boolean add(T newElement)
+  Description: Adds the specified element to this set if it is not already present.
+  Pre-condition: The element being added is not already present in the set.
+  Post-condition: the new element is added
+  Return: True if the element was added to the set, false otherwise.
+
+boolean remove(T anElement)
+  Description: Removes the specified element from this set if it is present.
+  Pre-condition: The element must exist in the set.
+  Post-condition: the element is removed
+  Return: True if the element was removed from the set, false otherwise.
+
+boolean checkSubset(Set anotherSet)
+  Description: Checks if another set is a subset of the current set.
+  Pre-condition: Another set is provided.
+  Post-condition: the element is 
+  Return: True if all elements in the other set are present in the current set, false otherwise.
+
+Set union(Set anotherSet)
+  Description: Returns a set that contains all the elements of the current set and another set.
+  Pre-condition: Another set is provided.
+  Post-condition: the elements 
+  Return: A set that contains all the elements of the current set and another set.
+
+Set intersection(Set anotherSet)
+  Description: Returns a set with elements that are common in both the current set and the given set.
+  Pre-condition: Another set is provided.
+  Post-condition: None.
+  Return: A set containing elements that are present in both the current set and another set.
+
+boolean isEmpty()
+  Description: Checks if the set is empty.
+  Pre-condition: None.
+  Post-condition: None.
+  Return: True if the set is empty, false otherwise.
